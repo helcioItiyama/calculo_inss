@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { Container } from './styles.js';
 
-export default class index extends Component {
+export default class InputFullSalary extends Component {
   render() {
     const {inputId, inputValue, onHandleChange, label} = this.props;
     

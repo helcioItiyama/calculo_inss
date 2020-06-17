@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { ColorBar } from './styles';
 
-export default class index extends Component {
+export default class ProgressBarSalary extends Component {
   render() {
     const { color, bar } = this.props;
     return (

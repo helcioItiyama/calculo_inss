@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Container } from './styles'
 import { formattedPrice, formattedNumber } from '../../utils/format';
 
-export default class index extends Component {
+export default class InputReadOnly extends Component {
   render() {
     const {inputId, lable, inputValue, percentage, color } = this.props
 
